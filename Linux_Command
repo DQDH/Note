@@ -1,5 +1,5 @@
 ##Linux 命令
-命令|用法
+命令|用法|
 ----|----
 ps|查看进程所对应的的宿主：ps -ef grep | '进程号'
 sudo|查看*号显卡所有运行的程序：sudo fuser -v /dev/nvidia
