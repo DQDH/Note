@@ -1,10 +1,11 @@
-########字符串&字符
-s.strip()    #删除空白字符
-strip('a')   #删除指定字符
-'aaddfaa'.rstrip('a') #删除字符串右端指定字符
->>aaddf
-'aaddfaa'.lstrip('a') #删除字符串左端指定字符
->>ddfaa
+字符串&字符
+====
+函数|用法|含义
+----|----|----
+strip| s.strip()| #删除空白字符
+-|strip('a') |  #删除指定字符
+rstrip|'aaddfaa'.rstrip('a') |#删除字符串右端指定字符>>aaddf
+lstrip|'aaddfaa'.lstrip('a') |#删除字符串左端指定字符>>ddfaa
 
 chr(int_num) #将整型转成字符型(对应ascii表)
 int('52')=52 #可直接将字符串转为数字
@@ -26,7 +27,8 @@ str.lower() 将str转为小写
 str.islower() 方法检测字符串是否由小写字母组成
 str.isupper() 方法检测字符串是否由大写字母组成
 
-########list
+列表
+====
 sorted([5, 2, 3, 1, 4])#所有可迭代对象都可以
 一个新的list：>>[1, 2, 3, 4, 5]
 >>> a = [5, 2, 3, 1, 4]
