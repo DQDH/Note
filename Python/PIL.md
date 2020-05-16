@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-plt
 ====
 函数|含义
 ----|----
