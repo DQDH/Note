@@ -27,22 +27,13 @@ isupper|str.isupper() |方法检测字符串是否由大写字母组成
 
 列表
 ====
-sorted([5, 2, 3, 1, 4])#所有可迭代对象都可以
-一个新的list：>>[1, 2, 3, 4, 5]
->>> a = [5, 2, 3, 1, 4]
->>> a.sort()  #只能用在list
->>> a
-[1, 2, 3, 4, 5]  原list被修改
-
-list.index(list[i])#某元素下标
-
-[[0]*cols,for i in range(rows)]#生成二维列表
-
-list(string) 将string转为list
-
-set（list）将list去除重复项 返回新的集合对象{} 需list()
-
-list.remove(list[i])删除list中list[i]
+sorted|sorted([5, 2, 3, 1, 4])|#所有可迭代对象都可以，一个新的list：>>[1, 2, 3, 4, 5]
+sort|a.sort()  |#只能用在list上  原list被修改
+index|list.index(list[i])|#某元素下标
+|[[0]Xcols, for i in range(rows)]| #生成二维列表
+list|list(string) |将string转为list
+set|set（list）|将list去除重复项 返回新的集合对象{} 需list()
+remove|list.remove(list[i])|删除list中list[i]
 
 list.reverse() 将list翻转
 
@@ -74,7 +65,6 @@ print(list(zip(lst)))
 [('1', '2'), ('1', '2'), ('1', '2')]
 [('1', '1', '1'), ('2', '2', '2')]
 [(('1', '2'),), (('1', '2'),), (('1', '2'),)]
-
 ########链表
 处理链表时：a=b=ListNode()生成的a,b指向同一地址
 pA = pA.next if pA else headB
@@ -83,20 +73,14 @@ if pA:
 pA=pA.next
 else:
 pA=headB
-
-
 内置函数：
 map(square, [1,2,3,4,5])   # 计算列表各个元素的平方
 [1, 4, 9, 16, 25]
 map(lambda x: x ** 2, [1, 2, 3, 4, 5])  # 使用 lambda 匿名函数
 [1, 4, 9, 16, 25]
- 
-# 提供了两个列表，对相同位置的列表数据进行相加
+提供了两个列表，对相同位置的列表数据进行相加
 >>> map(lambda x, y: x + y, [1, 3, 5, 7, 9], [2, 4, 6, 8, 10])
 [3, 7, 11, 15, 19]
-
-
-
 <<	左移动运算符：运算数的各二进位全部左移若干位，由"<<"右边的数指定移动的位数，高位丢弃，低位补0。
 >>	右移动运算符：把">>"左边的运算数的各二进位全部右移若干位，">>"右边的数指定移动的位数
 
