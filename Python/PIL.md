@@ -5,7 +5,7 @@ plt
 ----|----|----
 plt.xlim()|x轴范围
 plt.ylim()|y轴范围
-plt.plot(x,y)|x轴数据，y轴数据|画数据曲线
+plt.plot(x,y)|x轴数据，y轴数据
 plt.figure() |自定义画布大小
 plt.imshow()|显示图像
 plt.subplot（rci）|将画布分为r行c列个小块，显示在第i个，顺序为从左到右，从上到下
