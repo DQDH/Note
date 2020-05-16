@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 plt
 ====
-函数|含义|用法
-----|----|----
+函数|含义
+----|----
 plt.xlim()|x轴范围
 plt.ylim()|y轴范围
 plt.plot(x,y)|x轴数据，y轴数据
