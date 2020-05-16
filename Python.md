@@ -6,26 +6,24 @@ strip| s.strip()| #删除空白字符
 -|strip('a') |  #删除指定字符
 rstrip|'aaddfaa'.rstrip('a') |#删除字符串右端指定字符>>aaddf
 lstrip|'aaddfaa'.lstrip('a') |#删除字符串左端指定字符>>ddfaa
-
-chr(int_num) #将整型转成字符型(对应ascii表)
-int('52')=52 #可直接将字符串转为数字
-ord('a')  #将字符转为ASCII十进制码
-bin(6)='0b110' 数字转二进制码字符串，有0b标识符
-int('10',base=2)=2二进制转十进制
-65~90 A~Z
-97~122 a~z
-
-''.join(dp) #将字符串数组dp连接为一个字符串
-s=s[::-1] 将s翻转
-strx == stry 判x,y字符串是否相等
-s.count(s[i]) 计算某个字符出现的次数
-s.replace(s[i],ss) 用ss替代s中的s[i]
-s.split(' ')  将字符串s以' '分开，返回一个列表
-s.zfill(5)  将字符串s以0补全到5位
-str.upper()  将str转为大写
-str.lower() 将str转为小写
-str.islower() 方法检测字符串是否由小写字母组成
-str.isupper() 方法检测字符串是否由大写字母组成
+chr|chr|chr(int_num) |#将整型转成字符型(对应ascii表)
+int|int('52')=52 |#可直接将字符串转为数字
+ord|ord('a')  |#将字符转为ASCII十进制码
+bin|bin(6)='0b110' |数字转二进制码字符串，有0b标识符
+int|int('10',base=2)=2|二进制转十进制
+大写字母|65~90| A~Z
+小写字母|97~122 |a~z
+join|''.join(dp) |#将字符串数组dp连接为一个字符串
+特殊表达|s=s[::-1] |将s翻转
+特殊表达|strx == stry |判x,y字符串是否相等
+count|s.count(s[i]) |计算某个字符出现的次数
+replace|s.replace(s[i],ss) |用ss替代s中的s[i]
+split|s.split(' ')  |将字符串s以' '分开，返回一个列表
+zfill|s.zfill(5)  |将字符串s以0补全到5位
+upper|str.upper()  |将str转为大写
+lower|str.lower() |将str转为小写
+islower|str.islower() |方法检测字符串是否由小写字母组成
+isupper|str.isupper() |方法检测字符串是否由大写字母组成
 
 列表
 ====
