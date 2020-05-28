@@ -24,8 +24,8 @@ git init
 git clone github.com/Test
 添加上传的文件
 ----
-cd Test
-git add . 上传所有文件
-git add hello.py 上传指定文件
-git commit -m "This is the hello world code" 提交描述信息
-git push origin master 上传到仓库
+cd Test<br>
+git add . 上传所有文件<br>
+git add hello.py 上传指定文件<br>
+git commit -m "This is the hello world code" 提交描述信息<br>
+git push origin master 上传到仓库<br>
