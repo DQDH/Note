@@ -9,6 +9,6 @@ chown|chown -R 所有者 文件或目录 |修改文件所有者 -R 选项表示�
 su| 进入root权限，exit退出
 cat| cat /usr/local/cuda/version.txt |查看cuda版本
 grep| cat train_audio.csv / grep ",6,/" >z.csv |查找指定字符串
-grep| grep -o objstr filename/ wc -l 查找指定字符串出现的次数
-grep| grep -o `objstr1\|objstr2` filename|wc -l 查找多种指定字符串出现的次数
+grep| grep -o objstr filename/ wc -l |查找指定字符串出现的次数
+grep| grep -o `objstr1\|objstr2` filename/wc -l |查找多种指定字符串出现的次数
 scp |scp -r ./Action_Recognition_Data/ public@10.102.125.137:/home1/2020_coding_data|传输文件
