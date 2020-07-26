@@ -19,5 +19,5 @@ grep|grep -i objstr files   |不区分大小写地搜索。默认情况区分大
 grep|grep -l objstr files   |只列出匹配的文件名，
 grep|grep -L objstr files   |列出不匹配的文件名，
 grep|grep -w objstr files  |只匹配整个单词，而不是字符串的一部分（如匹配‘magic’，而不是‘magical’），
-vgrep -C number objstr files |匹配的上下文分别显示[number]行，
+grep|grep -C number objstr files |匹配的上下文分别显示[number]行，
 scp |scp -r ./Action_Recognition_Data/ public@10.102.125.137:/home1/2020_coding_data|传输文件
