@@ -21,3 +21,6 @@ grep|grep -L objstr files   |列出不匹配的文件名，
 grep|grep -w objstr files  |只匹配整个单词，而不是字符串的一部分（如匹配‘magic’，而不是‘magical’），
 grep|grep -C number objstr files |匹配的上下文分别显示[number]行，
 scp |scp -r ./Action_Recognition_Data/ public@10.102.125.137:/home1/2020_coding_data|传输文件
+head|head -100  filename | 查看文件的前100行
+tail|tail -100  filename 或 tail -n 100  filename|查看文件的后100行
+sed|sed -n '100,200p' filename | 查看文件中间一段,第100行到第200行
