@@ -5,3 +5,21 @@
 ：%s/objstr//gn 统计objstr出现的次数
 
 :/objstr 搜索objstr n 向后找 N 向前找
+
+~/.vimrc
+"不要加下面这句话，非常不好用"
+"set term=builtin_ansi
+set mouse=v
+set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set autoindent
+set tabstop=4
+set ts=4
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936
+set fileencoding=utf-8
+syntax on
+set expandtab
+set number
+set nobackup
+set noswapfile
