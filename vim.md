@@ -9,6 +9,7 @@
 ~/.vimrc
 "不要加下面这句话，非常不好用"
 "set term=builtin_ansi
+
 set mouse=v
 set fencs=utf-8,ucs-bom,shift-jis,gb18030,gbk,gb2312,cp936
 set termencoding=utf-8
